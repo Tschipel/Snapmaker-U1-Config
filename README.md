@@ -32,11 +32,11 @@ Before using this config, ensure:
 
 ## Test Setup
 
-| Component | Version |
-|-----------|---------|
+| Component | Version                             |
+|-----------|-------------------------------------|
 | Printer   | U1 (Kickstarter, without top cover) |
-| Firmware  | v1.1.1-paxx12-13 (extended) |
-| Slicer    | Snapmaker OrcaSlicer 2.2.4 |
+| Firmware  | v1.3.0-paxx12-xx (extended)         |
+| Slicer    | Snapmaker OrcaSlicer 2.3.1          |
 
 ## Notes
 
@@ -45,3 +45,6 @@ Before using this config, ensure:
 - `[include extended/klipper/*.cfg]` requires the extended Snapmaker Klipper firmware.
 - v1.1.1 requires **Snapmaker OrcaSlicer 2.2.4+** or Snapmaker App 2.2.3+.
 - v1.1.1 adds heated bed flatness deviation detection and new filament presets (PETG HF, TPU 95A HF).
+- v1.3.0 recommended to use it with **Snapmaker Orca V2.3.1+** or Snapmaker App V2.3.2+.
+- v1.3.0 adds support for multiple nozzle diameters (0.2mm / 0.4mm / 0.6mm / 0.8mm)
+- v1.3.0 improves the AI defect detection model, optimizes pogo pin continuity detection logic, improves extrusion flow calibration and updated built-in parameters 
